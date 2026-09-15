@@ -1,0 +1,24 @@
+{
+  "Version": "4.0",
+  "Workloads": [
+    {
+      "Id": "PUT-WIN32-APP-GUID-HERE",
+      "Name": "Example Win32 application",
+      "Type": "Win32",
+      "Required": true
+    },
+    {
+      "Id": "PUT-POWERSHELL-SCRIPT-GUID-HERE",
+      "Name": "Example PowerShell script",
+      "Type": "PowerShell",
+      "Required": true
+    },
+    {
+      "Id": "PUT-MSI-PRODUCT-CODE-HERE",
+      "Name": "Example MSI application",
+      "Type": "Msi",
+      "ProductCode": "PUT-MSI-PRODUCT-CODE-HERE",
+      "Required": true
+    }
+  ]
+}

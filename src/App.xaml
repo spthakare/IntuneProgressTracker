@@ -1,0 +1,13 @@
+<Application x:Class="IntuneProgressTracker.App"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ StartupUri="MainWindow.xaml">
+ <Application.Resources>
+   <SolidColorBrush x:Key="BrandBrush" Color="#0067B8"/>
+   <SolidColorBrush x:Key="SurfaceBrush" Color="#FFFFFF"/>
+   <SolidColorBrush x:Key="PageBrush" Color="#F6F8FA"/>
+   <SolidColorBrush x:Key="MutedBrush" Color="#5F6B7A"/>
+   <Style TargetType="ProgressBar"><Setter Property="Height" Value="10"/><Setter Property="Foreground" Value="#0067B8"/><Setter Property="Background" Value="#E1E7EE"/></Style>
+   <Style TargetType="Button"><Setter Property="Padding" Value="14,7"/><Setter Property="Margin" Value="4,0,0,0"/></Style>
+ </Application.Resources>
+</Application>

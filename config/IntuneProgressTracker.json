@@ -1,0 +1,15 @@
+{
+  "PollSeconds": 5,
+  "BootstrapWaitSeconds": 900,
+  "DiscoveryStabilizationSeconds": 90,
+  "MinimumObservationSeconds": 60,
+  "NoStateGraceSeconds": 180,
+  "PolicyQuietPeriodSeconds": 30,
+  "CloseOnlyWhenAllTrackedWorkloadsComplete": true,
+  "RequireManifestWhenPresent": true,
+  "TreatRebootRequiredAsComplete": false,
+  "ShowOptionalWorkloads": false,
+  "LaunchAtUserLogon": true,
+  "RemoveRunEntryAfterCompletion": true,
+  "AllowCloseWhenIntuneNeverArrived": false
+}
